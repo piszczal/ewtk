@@ -1,0 +1,148 @@
+<resources>
+    <string name="app_name">EWTK</string>
+
+    <string name="navigation_drawer_open">Open the side menu</string>
+    <string name="navigation_drawer_close">Close the side menu</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login">Login to service</string>
+    <string name="connection_error">No Internet connection. Make sure you have Wi-Fi or data enabled, and try again.</string>
+    <string name="retry">Retry</string>
+    <string name="internet_off">No connection!</string>
+    <string name="time_out">Time is up!</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="error_invalid_email">Address email is incorrect!</string>
+    <string name="error_invalid_password">Password is too short!</string>
+    <string name="error_incorrect_password">Password is incorrect</string>
+    <string name="error_field_required">Field is required!</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="error_connection">Connection error!</string>
+    <string name="error_email_or_password">Incorrect password or login!</string>
+
+    <!-- String dashboard -->
+    <string name="welcome">Hello!</string>
+    <string name="not_complete_profile">You did not complete the profile!</string>
+    <string name="not_patient">You are not a patient</string>
+    <string name="not_active_research">You have no active research!</string>
+    <string name="no_activate_account">You have not activated your account!</string>
+    <string name="verify_email">{"error":"Please verify your e-mail adress"}</string>
+    <string name="expired_session">The session has expired</string>
+    <string name="you_logged_out">You will be logged out</string>
+
+    <!-- Strings related to main -->
+    <string name="app_title">Electronic Clinical Trial System</string>
+    <string name="home">Home</string>
+    <string name="my_research">My research</string>
+    <string name="my_modules">Modules</string>
+    <string name="my_diseases">Disease Dictionary</string>
+    <string name="my_profile">My Profile</string>
+    <string name="messages">Messages</string>
+    <string name="contact">Contact</string>
+    <string name="chat">Chat</string>
+    <string name="about_app">About apps</string>
+    <string name="message">Contact</string>
+    <string name="helper">Tutorial</string>
+    <string name="logout">Log out</string>
+    <string name="accelerometer">Accelerometer</string>
+    <string name="light">Light</string>
+    <string name="not_available">Not available</string>
+    <string name="atmospheric">Atmospheric</string>
+    <string name="gyroscope">Gyroscope</string>
+    <string name="temperature">Temperature</string>
+    <string name="heart_rate">Heart rate</string>
+
+    <!-- Strings my research -->
+    <string name="details">Details</string>
+    <string name="pref_ill">Preferred condition</string>
+    <string name="diseases">Diseases</string>
+    <string name="addictions">Addictions</string>
+    <string name="needments">Requirements</string>
+    <string name="data_start">Start date</string>
+    <string name="data_end">End date</string>
+    <string name="data_singUp">Start registration</string>
+    <string name="data_endSingUp">End registration</string>
+    <string name="age">Age</string>
+    <string name="weight">Weight</string>
+    <string name="growth">Growth</string>
+    <string name="blood">Blood group</string>
+    <string name="from">from</string>
+    <string name="to">to</string>
+    <string name="active_research">The research is active</string>
+    <string name="disable_research">The test is not active</string>
+
+    <!-- Strings chat -->
+    <string name="conversations">Messages</string>
+    <string name="lack_conversations">No messages</string>
+    <string name="count_conversations">Number of available conversations</string>
+    <string name="write_a_message">Write a message</string>
+    <string name="send_message">Send</string>
+    <string name="on_wifi_or_data">Turn on Wi-Fi or packet data :(</string>
+    <string name="something_wrong">Something went wrong :(</string>
+    <string name="no_authorization">No authorization</string>
+
+    <!-- Strings modules -->
+    <string name="module_details">Module - details</string>
+    <string name="executions_module">Number of planned performances</string>
+    <string name="name_module">Name</string>
+    <string name="description_module">Descriptions</string>
+    <string name="test_module">Module no. 1</string>
+
+    <!-- Strings questions -->
+    <string name="title_dialog">Exit</string>
+    <string name="message_dialog">Are you sure you want to leave the questions? Any responses will not be saved!</string>
+    <string name="question">Question</string>
+    <string name="summary">Summary</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="null_check_body">You did not mark the place of pain!</string>
+    <string name="front_body">Front</string>
+    <string name="back_body">Back</string>
+    <string name="null_check_poll">You have not chosen anything!</string>
+    <string name="check_body">You selected</string>
+    <string name="thank_for_send_answers">Thanks for the tests!</string>
+    <string name="go_to_menu">Go to the menu</string>
+    <string name="lack_questions">No questions in the module!</string>
+    <string name="come_back">Return to menu</string>
+    <string name="take_a_photo">Take a photo</string>
+    <string name="choose_a_file">Choose a file</string>
+    <string name="selected_file">Selected file: </string>
+    <string name="info_start_questions">You are about to start the test. You will have to answer a dozen questions. Remember that answering the questions can not return to the past! Exiting the module means not saving or sending questions!</string>
+    <string name="start_questions">Start</string>
+    <string name="input_answer">Enter your answer here... </string>
+    <string name="file_select_upload_">Select a FileSelect to Upload</string>
+    <string name="file_select_manager">Please install a FileSelect Manager</string>
+    <string name="no_file">No file</string>
+    <string name="sending_file">Sending file...</string>
+    <string name="wrong_type_file">Inappropriate file type</string>
+    <string name="selected_file_">Selected file: </string>
+
+    <string name="nothing_hurts_me">Nothing hurts me</string>
+    <string name="describe_pain">Describe exactly the pain...</string>
+
+    <!-- Strings my profile -->
+    <string name="data">Data</string>
+    <string name="profile_ill">Conditions</string>
+    <string name="name">First name</string>
+    <string name="surname">Name</string>
+    <string name="score_points">Amount of points</string>
+    <string name="pesel">Social Security</string>
+    <string name="phone">Phone</string>
+    <string name="birth_date">Date of birth</string>
+    <string name="gender">Gender</string>
+    <string name="street">Street</string>
+    <string name="zipcode">Zip-code</string>
+    <string name="town">Town</string>
+    <string name="aboutme">About me</string>
+
+    <string name="name_ewtk_bialystok">EWTK Bialystok</string>
+    <string name="ewtk_address">ul. Wiejska 45A, 15-001 Bialystok</string>
+    <string name="about_app_info">Clinical trials aim at validation of effectiveness of a medical intervention, e.g., a drug. The goal of this project was to improve the way clinical trials are conducted, from manual to automated, with use of internet and mobile applications and a server. Internet application supports trial designers in creating and managing clinical trials. Mobile apps help participants to collect data and transfer data to the Clinical Trial Center. Our solution also allows to reuse certain parts of clinical trials in other similar studies, further accelerating and reducing the cost of the process of designing and conducting clinical trials. Our system was implemented with help of the following technologies and frameworks: PHP, Laravel 5.2, MySQL, Pusher, HTML5, AngularJS, MVC, Java, Android SDK and Spring for Android.</string>
+
+
+</resources>

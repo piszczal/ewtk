@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="@string/home" />
+        <item
+            android:id="@+id/nav_research"
+            android:icon="@drawable/ic_menu_research"
+            android:title="@string/my_research" />
+        <item
+            android:id="@+id/nav_models"
+            android:icon="@drawable/ic_menu_module"
+            android:title="@string/my_modules" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_menu_profile"
+            android:title="@string/my_profile" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_menu_logout"
+            android:title="@string/logout" />
+        <item android:title="@string/contact">
+            <menu>
+                <group android:checkableBehavior="single">
+                    <item
+                        android:id="@+id/nav_chat"
+                        android:icon="@drawable/ic_menu_chat"
+                        android:title="@string/chat" />
+                    <item
+                        android:id="@+id/nav_contact"
+                        android:icon="@drawable/ic_menu_contact"
+                        android:title="@string/message" />
+                </group>
+            </menu>
+        </item>
+        <item android:title="Informacje">
+            <menu>
+                <group android:checkableBehavior="single">
+                    <item
+                        android:id="@+id/nav_aboutApp"
+                        android:icon="@drawable/ic_menu_info"
+                        android:title="@string/about_app" />
+                    <item
+                        android:id="@+id/learning"
+                        android:icon="@drawable/ic_menu_help"
+                        android:title="@string/helper" />
+                </group>
+            </menu>
+        </item>
+    </group>
+
+</menu>

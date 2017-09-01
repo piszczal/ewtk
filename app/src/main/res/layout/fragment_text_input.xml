@@ -1,0 +1,129 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.szymon.ewtk.Fragment.Question.TextInputFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbarSize="@dimen/scrollbar_size"
+        android:scrollbarThumbVertical="@drawable/scrollbar">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:cardElevation="4dp"
+                app:cardCornerRadius="4dp"
+                android:layout_marginBottom="@dimen/margin_question_card"
+                android:layout_marginLeft="@dimen/margin_question_card"
+                android:layout_marginRight="@dimen/margin_question_card"
+                android:layout_marginTop="@dimen/margin_question_card">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="65dp"
+                        android:background="#eeeeee"
+                        android:orientation="horizontal"
+                        android:weightSum="1">
+
+                        <ImageView
+                            android:id="@+id/textCirlce"
+                            android:layout_width="48dp"
+                            android:layout_height="48dp"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginTop="10dp" />
+
+                        <TextView
+                            android:id="@+id/titleText"
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginBottom="16dp"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginTop="18dp"
+                            android:textColor="#000000"
+                            android:textSize="17dp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <View xmlns:android="http://schemas.android.com/apk/res/android"
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="#B6B6B6" />
+
+                        <TextView
+                            android:id="@+id/descriptionText"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="6dp"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginTop="18dp"
+                            android:textSize="18dp" />
+
+                        <EditText
+                            android:id="@+id/inputText"
+                            android:layout_width="match_parent"
+                            android:layout_height="170dp"
+                            android:layout_marginBottom="50dp"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginRight="15dp"
+                            android:layout_marginTop="5dp"
+                            android:gravity="bottom"
+                            android:hint="@string/input_answer"
+                            android:scrollbars="vertical" />
+
+
+                    </LinearLayout>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+    </ScrollView>
+
+    <android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/main_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+       <!-- <android.support.design.widget.FloatingActionButton
+            android:id="@+id/prev_fabText"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_gravity="left|bottom|start"
+            android:layout_margin="8dp"
+            android:src="@drawable/ic_arrow_next"
+            app:backgroundTint="#d50000"
+            app:borderWidth="0dp" />-->
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/next_fabText"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="right|bottom|end"
+            android:layout_margin="8dp"
+            app:backgroundTint="#558b2f"
+            app:borderWidth="0dp" />
+
+    </android.support.design.widget.CoordinatorLayout>
+
+</FrameLayout>
